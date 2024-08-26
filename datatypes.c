@@ -18,9 +18,20 @@ int main(){
     int j = 2147483647; // 4 bytes (-2,147,483,648 to +2,147,483,647) %d
     unsigned int k = 4294967295L; // 4 bytes (0, to +4,294,967,295) %u
     
-    long long int l = 9223372036854775807; // 8 bytes (-9 quitillion to +9 quintillion)
+    long long int l = 9223372036854775807; // 8 bytes (-9 quitillion to +9 quintillion) %lld
     unsigned long long int m = 18446744073709551615U; // 8 bytes (0 to +18 quintillion) %llu
 
-    
+    printf("%c\n", a); // char
+    printf("%s\n", b); // character array
+    printf("%0.f\n", c); // float
+    printf("%lf\n", d); // double
+    printf("%d\n", e); // bool
+    printf("%d\n", f); // char as numeric value
+    printf("%d\n", g); //unsigned char as numeric value
+    printf("%d\n", h); // short
+    printf("%d\n", i); // unsigned short
+    printf("%d\n", j); // int
+    printf("%u\n", k); // unsigned int
+    printf("%lld", l); // long long int
 
 }
