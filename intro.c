@@ -9,7 +9,17 @@ int main() {
     a
     multiline
     comment
-    */
+    */ 
+
+   // Escape Sequence
+
+   /*
+   escape sequence = character combination consisting of a backslach \
+                     followed by a letter or combination of digits.
+                     They specify actions within a line or string of text.
+                     \n = newline
+                     \t = tab
+   */
     printf("I like pizza.\n");
     printf("It's really good.\n");
     return 0;
