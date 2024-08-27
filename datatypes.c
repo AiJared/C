@@ -19,7 +19,7 @@ int main(){
     unsigned int k = 4294967295L; // 4 bytes (0, to +4,294,967,295) %u
     
     long long int l = 9223372036854775807; // 8 bytes (-9 quitillion to +9 quintillion) %lld
-    unsigned long long int m = 18446744073709551615U; // 8 bytes (0 to +18 quintillion) %llu
+    unsigned long long int m = 18446744073709551615U; // 'U' helps prevent an error 8 bytes (0 to +18 quintillion) %llu
 
     printf("%c\n", a); // char
     printf("%s\n", b); // character array
