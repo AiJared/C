@@ -9,7 +9,7 @@ int main(){
     double d = 3.141592653589793; // 8 bytes (64 bits of precision)15 to 16 digitd %lf
     bool e = true; // 1 byte (true or false) $d
 
-    char f = 100; // 1 byte (-128 to + 127) %d or %c
+    char f = 120; // 1 byte (-128 to + 127) %d or %c
     unsigned char g = 255; // 1 byte (0 to 255) %d or %c
 
     short int h = 32767; // 2 bytes (-32,768 to +32,767) %d
@@ -23,10 +23,10 @@ int main(){
 
     printf("%c\n", a); // char
     printf("%s\n", b); // character array
-    printf("%0.f\n", c); // float
+    printf("%0.15f\n", c); // float
     printf("%lf\n", d); // double
     printf("%d\n", e); // bool
-    printf("%d\n", f); // char as numeric value
+    printf("%c\n", f); // char as numeric value
     printf("%d\n", g); //unsigned char as numeric value
     printf("%d\n", h); // short
     printf("%d\n", i); // unsigned short
