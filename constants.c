@@ -6,7 +6,11 @@ int main(){
 
     const float PI = 3.14159;
 
-    printf("%f", PI);
+    const double sigma = 1.23456789;
+
+    printf("%f\n", PI);
+
+    printf("%lf\n", sigma);
 
     return 0;
 }
