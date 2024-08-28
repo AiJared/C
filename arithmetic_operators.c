@@ -7,6 +7,8 @@ int main(){
     // + (addition)
     // - (subtration)
     // * (multiplication)
+    // / (division)
+    // % (modulus)
     // ++ (increment)
     // -- (decrement)
 
@@ -28,7 +30,15 @@ int main(){
     */
     int a = x % y;
 
+    // ++ (increment)
+    /*
+    Increase a number by 1
+    */
+    x++;
+    
     // printf("%d", z);
-    printf("%d", a);
+    //printf("%d", a);
+    printf("%d", x);
+    
     return 0;
 }
