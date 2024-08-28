@@ -36,9 +36,16 @@ int main(){
     */
     x++;
     
+    // Decrement
+    /*
+    Decrese a number by 1
+    */
+    y--;
+
     // printf("%d", z);
     //printf("%d", a);
-    printf("%d", x);
+    // printf("%d", x);
+    printf("%d", y);
     
     return 0;
 }
