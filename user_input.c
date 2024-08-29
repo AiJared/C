@@ -17,7 +17,7 @@ int main(){
     #include <string.h> at the top which basically allows you to work with strings then
     do the following:
     */
-    name[strlen(name)-1] = '\0';
+    name[strlen(name)-1] = '\0'; // string formating to get rid of the new line from fgets above
 
     printf("\nHow old are you?");
     scanf("%d", &age);
